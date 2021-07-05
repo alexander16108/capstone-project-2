@@ -1,0 +1,27 @@
+@import "./variables";
+/* font for larger text */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $primary-color;
+}
+
+@function weight ($weight-name){ 
+  @return map-get($font-weight, $weight-name );
+}
+
+@function size ($size-value){ 
+  @return map-get($font-size, $weigh-value );
+
+}
+
+// @function margin ($margin-position){ 
+//   @return map-get($margin-center $margin-position );
+// }

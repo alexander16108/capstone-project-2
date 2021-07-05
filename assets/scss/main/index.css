@@ -1,0 +1,13 @@
+/* font for larger text */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #d3d3d3;
+}
+/*# sourceMappingURL=index.css.map */

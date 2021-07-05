@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "ACCA,0BAA0B;AAC1B,OAAO,CAAC,0EAAI;AAGZ,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,EAAE;EACV,OAAO,EAAE,EAAE;EACX,UAAU,EAAE,UAAU;CACvB;;AAED,AAAA,IAAI,CAAC;EACH,gBAAgB,ECZF,OAAO;CDatB",
+    "sources": [
+        "index.scss",
+        "_universal.scss",
+        "_variables.scss",
+        "_variables.scss",
+        "_mixins.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}
