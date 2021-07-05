@@ -1,4 +1,6 @@
 @import "./variables";
+@import "./mixins";
+
 /* font for larger text */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 
@@ -13,12 +15,20 @@ body {
   background-color: $primary-color;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  @include link;
+}
+
 @function weight ($weight-name){ 
   @return map-get($font-weight, $weight-name );
 }
 
 @function size ($size-value){ 
-  @return map-get($font-size, $weigh-value );
+  @return map-get($font-size, $size-value );
 
 }
 

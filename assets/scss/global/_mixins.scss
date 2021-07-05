@@ -1,3 +1,5 @@
+@import "./variables";
+
 @mixin flexcenter ($direction){
   display: flex;
   justify-content: center;
@@ -11,11 +13,20 @@
   align-items: center;
 }
 
-@mixin text {
-  font-size: size(medium);
+@mixin text-mobile {
+  font-size: size(small);
+  font-weight: weight(small);
   line-height: 20px;
-  text-align: center;
+  // text-align: center;
   font-family: "Lato", sans-serif;
+}
+
+@mixin header-mobile {
+  font-size: size(medium);
+  line-height: 30px;
+  font-family: "Cocogoose", sans-serif;
+  color: $header-color;
+  padding-top: 10px;
 }
 
 
@@ -31,4 +42,9 @@
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 10px;
   margin: 0 auto;
+}
+
+@mixin link {
+  text-decoration: none;
+  color: $text-color;
 }
