@@ -1,0 +1,43 @@
+.feature-speakers {
+  background-color: white;
+}
+
+.feature-speaker {
+  @include flexcenter(row);
+  padding: 20px;
+}
+
+.feature-container {
+  h2 {
+    text-align: center;
+    font-family: "Cocogoose", sans-serif;
+    font-weight: weight(small);
+  }
+
+  .slim {
+    @include line;
+  }
+}
+
+.face-shot {
+  width: 110px;
+}
+
+.speaker-info {
+  width: 65%;
+  text-align: center;
+
+  h3 {
+    @include header-mobile;
+    font-size: 15px;
+  }
+
+  h2 {
+    font-family: "Cocogoose", sans-serif;
+    font-size: size(small);
+  }
+
+  p {
+    @include text-mobile;
+  }
+}
