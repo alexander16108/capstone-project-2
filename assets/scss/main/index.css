@@ -1,5 +1,6 @@
 /* font for larger text */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+
 @font-face {
   font-family: "Cocogoose";
   src: url("Cocogoose.ttf.woff") format("woff");
@@ -53,7 +54,7 @@ header .header-background {
 
 .toggle-list.show {
   display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -ms-flexbox; */
   display: flex;
 }
 
@@ -162,7 +163,7 @@ header .header-background {
   position: relative;
   height: 100%;
   width: 100%;
-  background: url("https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fGJsYWNrJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-image: url("https://images.unsplash.com/photo-1517999144091-3d9dca6d1e43?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fGJsYWNrJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   padding-bottom: 1.4em;
 }
 
@@ -188,7 +189,6 @@ header .header-background {
 
 .content {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
   justify-content: space-around;
@@ -239,7 +239,6 @@ header .header-background {
 
 .feature-speaker {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -323,7 +322,6 @@ header .header-background {
 
 .partner-content .partner-list {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -350,7 +348,6 @@ header .header-background {
 
 .footer-container {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -399,7 +396,6 @@ header .header-background {
   .icon .list {
     float: right;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -435,7 +431,6 @@ header .header-background {
   .navigation .nav-list {
     float: right;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     font-size: 20px;
     font-family: "Cocogoose", sans-serif;
@@ -531,7 +526,6 @@ header .header-background {
 
   .content-body {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -542,7 +536,6 @@ header .header-background {
 
   .content-body .content {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
