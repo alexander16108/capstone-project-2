@@ -4,6 +4,7 @@
 
   h2 {
     @include header-mobile;
+
     text-align: center;
   }
 
@@ -24,6 +25,7 @@
 
   p {
     @include text-mobile;
+
     padding: 2em 2em;
     font-weight: lighter;
   }
