@@ -508,6 +508,40 @@ header .header-background {
   }
 }
 
+@media screen and (min-width: 769px) {
+  .concert-logo h2 {
+    padding: 12px;
+  }
+  .concert-logo .event-image {
+    width: 55%;
+  }
+  .concert-logo p {
+    font-size: 20px;
+    font-weight: lighter;
+    width: 55%;
+    margin: 0 auto;
+  }
+  .concert-logo .activities {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin: 0%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .concert-logo .activities .past-first-tour,
+  .concert-logo .activities .past-second-tour {
+    width: 80%;
+    margin: 0% auto;
+  }
+  .concert-logo .activities .first-year {
+    padding: 12px;
+  }
+}
+
 .Venue {
   text-align: center;
 }

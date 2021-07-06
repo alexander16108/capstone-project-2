@@ -1,0 +1,38 @@
+@media screen and (min-width:769px) {
+.concert-logo {
+
+  h2 {
+    padding: 12px;
+  }
+
+  .event-image {
+    width: 55%;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+    width: 55%;
+    margin: 0 auto;
+  }
+
+  .activities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    margin: 0%;
+    justify-content: center;
+
+    .past-first-tour,
+    .past-second-tour {
+      width: 80%;
+      margin: 0% auto;
+    }
+
+    .first-year {
+      padding: 12px;
+      
+    }
+  }
+}
+}
