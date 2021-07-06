@@ -2,7 +2,7 @@
 
 # capstone-project
 
-<!-- ![image](https://user-images.githubusercontent.com/60612329/124297090-98a9d400-db52-11eb-90bb-97d511ec632f.png) -->
+![image](https://user-images.githubusercontent.com/60612329/124616483-0402e700-de6e-11eb-8b03-dd03c79f4b69.png)
 
 ## Built With
 - JavaScript
