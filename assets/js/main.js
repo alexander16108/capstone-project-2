@@ -4,7 +4,7 @@
 // ###############
 
 // popup-menu mobile version
-const headList = document.querySelector('toggle-list');
+const headList = document.querySelector('.toggle-list');
 const openMenu = document.querySelector('.toggle-open');
 const closeBtn = document.querySelector('.toggle-close');
 
