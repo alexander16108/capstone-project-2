@@ -4,11 +4,9 @@
 /* font for larger text */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 
-
 @font-face {
   font-family: "Cocogoose";
-  src:url('Cocogoose.ttf.woff') format('woff')
-
+  src: url('Cocogoose.ttf.woff') format('woff');
 }
 
 * {
@@ -29,15 +27,10 @@ a {
   @include link;
 }
 
-@function weight ($weight-name){ 
+@function weight ($weight-name) { 
   @return map-get($font-weight, $weight-name );
 }
 
-@function size ($size-value){ 
+@function size ($size-value) { 
   @return map-get($font-size, $size-value );
-
 }
-
-// @function margin ($margin-position){ 
-//   @return map-get($margin-center $margin-position );
-// }
