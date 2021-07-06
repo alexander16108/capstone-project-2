@@ -87,10 +87,13 @@ nav {
   @include text-mobile;
   border: 1px solid white;
   width: 90%;
+  color: #d3d3d3;
+
 }
 
 .Venue {
   padding: 30px 0;
+ color: #d3d3d3;
 
   .duration {
   font-size: size(medium);
