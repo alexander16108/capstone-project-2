@@ -51,7 +51,7 @@ header .header-background {
   color: white;
 }
 
-.headList.show {
+.toggle-list.show {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,10 +75,7 @@ header .header-background {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: top 2s ease;
-  transition: top 2s ease;
-  background-color: #292b2ed3;
-  color: #ec5242;
+  background-color: #ec5242;
   width: 100%;
 }
 
@@ -91,16 +88,13 @@ header .header-background {
   text-decoration: none;
   color: #292b2ed3;
   text-align: center;
-  font-weight: 400;
-  font-size: 21px;
+  font-size: 37px;
+  font-weight: 500;
 }
 
 .toggle-list li a :hover {
   background: none;
   color: #efefef;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  font-size: 1.6rem;
 }
 
 .toggle-list .toggle-close {

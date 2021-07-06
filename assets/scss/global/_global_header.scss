@@ -1,9 +1,9 @@
 header {
   @include background-relative;
-  background-image: url('https://images.unsplash.com/photo-1549605751-158aa5912530?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGNvbmNlcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-image: url("https://images.unsplash.com/photo-1549605751-158aa5912530?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGNvbmNlcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
 
   .header-background {
-    @include background-content
+    @include background-content;
   }
 }
 
@@ -13,14 +13,13 @@ header {
 
 .hamburger {
   color: white;
-  }
+}
 
-
-.headList.show {
+.toggle-list.show {
   display: flex;
 }
 
-.toggle-list{
+.toggle-list {
   display: none;
   height: 100vh;
   flex-direction: column;
@@ -31,10 +30,8 @@ header {
   z-index: 10;
   justify-content: center;
   align-items: center;
-  transition: top 2s ease;
- background-color: $text-color;
- color: $header-color;
- width: 100%;
+  background-color: #ec5242;
+  width: 100%;
 
   li {
     list-style: none;
@@ -43,14 +40,12 @@ header {
     a {
       @include link;
       text-align: center;
-      font-weight: weight(medium);
-      font-size: size(medium);
+      font-size: 37px;
+      font-weight: 500;
 
       :hover {
         background: none;
         color: #efefef;
-        transform: scale(1.2);
-        font-size: 1.6rem;
       }
     }
   }
@@ -88,21 +83,20 @@ header {
   border: 1px solid white;
   width: 90%;
   color: #d3d3d3;
-
 }
 
 .Venue {
   padding: 30px 0;
- color: #d3d3d3;
+  color: #d3d3d3;
 
   .duration {
-  font-size: size(medium);
-  font-weight: weight(medium);
-  font-family: "Cocogoose", sans-serif;
+    font-size: size(medium);
+    font-weight: weight(medium);
+    font-family: "Cocogoose", sans-serif;
   }
 
-.location {
-  padding: 10px 0;
-@include text-mobile;
-}
+  .location {
+    padding: 10px 0;
+    @include text-mobile;
+  }
 }
