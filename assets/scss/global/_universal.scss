@@ -28,11 +28,9 @@ a {
 }
 
 @function weight($weight-name) {
-
   @return map-get($font-weight, $weight-name);
 }
 
 @function size($size-value) {
-  
   @return map-get($font-size, $size-value);
 }
