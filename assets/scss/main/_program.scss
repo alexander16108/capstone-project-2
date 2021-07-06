@@ -3,46 +3,58 @@
 
 .main-program {
   background-color: #272a31;
-@include background-relative;
-background: url($imagePath);
-padding-bottom: 1.4em; 
+
+  @include background-relative;
+
+  background: url($imagePath);
+  padding-bottom: 1.4em;
 }
 
 .main-program-background {
+
   @include background-content;
+
 }
 
 .program-header {
   h3 {
+
     @include h3-header;
+
   }
 
   .slim {
+
     @include line;
+
   }
 }
 
 .content {
+
   @include flexEven;
+
   background-color: #272a31;
   margin: 12px;
   color: #d3d3d3;
   height: 24vh;
 
   p {
-  @include text-mobile;
-  text-align: center;
+
+    @include text-mobile;
+
+    text-align: center;
   }
 
   h3 {
     color: #ec5242;
-    font-size: size(medium);
-    font-weight: weight(medium);
+    // font-size: size(medium);
+    // font-weight: weight(medium);
     font-family: "Lato", sans-serif;
   }
 
   span {
-  padding: 12px;
+    padding: 12px;
   }
 }
 
@@ -59,7 +71,3 @@ padding-bottom: 1.4em;
     font-size: medium;
   }
 }
-
-
-
-
