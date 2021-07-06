@@ -1,28 +1,40 @@
 header {
-  padding: 20px;
   @include background-relative;
-  background-image: url('https://images.unsplash.com/photo-1524230659092-07f99a75c013?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzh8fG11c2ljJTIwY29uY2VydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-image: url('https://images.unsplash.com/photo-1549605751-158aa5912530?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGNvbmNlcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
 
   .header-background {
     @include background-content
   }
 }
 
+nav {
+  padding: 10px;
+}
 
 .hamburger {
-  a {
-    color: white;
-
-    :hover {
-      transform: scale(1.2);
-    }
+  color: white;
   }
+
+
+.headList.show {
+  display: flex;
 }
 
 .toggle-list{
-  padding: 0%;
-  margin: 0%;
   display: none;
+  height: 100vh;
+  flex-direction: column;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  transition: top 2s ease;
+ background-color: $text-color;
+ color: $header-color;
+ width: 100%;
 
   li {
     list-style: none;
@@ -30,9 +42,29 @@ header {
 
     a {
       @include link;
-      text-align: left;
+      text-align: center;
+      font-weight: weight(medium);
+      font-size: size(medium);
+
+      :hover {
+        background: none;
+        color: #efefef;
+        transform: scale(1.2);
+        font-size: 1.6rem;
+      }
     }
   }
+
+  .toggle-close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}
+
+.head-text {
+  padding-left: 10px;
 }
 
 .header {
@@ -42,7 +74,7 @@ header {
   h1 {
     color: $header-color;
     font-size: size(medium);
-    
+    font-family: "Cocogoose", sans-serif;
   }
 
   h2 {
@@ -63,6 +95,7 @@ header {
   .duration {
   font-size: size(medium);
   font-weight: weight(medium);
+  font-family: "Cocogoose", sans-serif;
   }
 
 .location {

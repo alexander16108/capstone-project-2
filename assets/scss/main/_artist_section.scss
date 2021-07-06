@@ -39,5 +39,6 @@
 
   p {
     @include text-mobile;
+    text-align: left;
   }
 }

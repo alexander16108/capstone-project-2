@@ -7,6 +7,23 @@ THE HEAD WITH DOCUMENTATION AND LINKS
   -->
 
   <head>
+
+    <!--   
+######################################
+
+ADD FONT LINKS
+
+#######################################
+  -->
+
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p
+  "
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="../scss/about/about.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,13 +31,49 @@ THE HEAD WITH DOCUMENTATION AND LINKS
   </head>
   <body>
     <!-- 
-####################
+################################
+
 HEADER SECTION FOR THE PROJECT 
-####################
+
+#################################
   -->
-    <header>
-      <nav></nav>
-    </header>
+  <header>
+    <div class="header-background"></div>
+    <nav>
+      <div class="hamburger">
+        <div class="toggle-open">
+          <i class="fas fa-bars fa-2x"></i>
+        </div>
+        </div>
+        <ul class="toggle-list">
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Event</a></li>
+          <li><a href="#">Artists</a></li>
+          <li><a href="#">Partners</a></li>
+          <li>
+            <a href="#" class="toggle-close"><i class="fas fa-times fa-2x"></i></a>
+          </li>
+        </ul>
+      </nav>
+    <div class="head-text">
+      <div class="header">
+        <h1>"Welcome To the World"</h1>
+        <h2>Music Fest World Tour and Concert 2021</h2>
+      </div>
+      <div class="text">
+        <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam sint laborum nemo, impedit, et, minima mollitia a consequuntur ut enim accusantium molestiae vero repellat eum voluptatem adipisci dolor nostrum omnis consectetur reiciendis. Dolorum sapiente obcaecati eveniet blanditiis quo. Pariatur!
+        </p>
+      </div>
+        <div class="Venue">
+          <p class="duration">2021.10.24(MON) ~ 25(TUE)</p>
+          <p class="location">
+            @ Lil Nax Old Time Road.Billy Cyrus Square and More
+          </p>
+        </div>
+    </div>
+  </header>
 
     <!-- 
 ####################
@@ -30,11 +83,25 @@ DIFFERENT SECTION IN THE PROJECT
   -->
 
     <main>
-      <section></section>
+      <section>
 
-      <section></section>
+      </section>
 
-      <section></section>
+            <section class="partner">
+        <div class="partner-header">
+          <h3>Partner</h3>
+          <hr class="slim">
+        </div>
+        <div class="partner-content">
+          <ul class="partner-list">
+            <li>Island Records</li>
+            <li>Warner Music Group</li>
+            <li>Virgin Records</li>
+            <li>Red Hill Records</li>
+            <li>ABC-Paramount Records</li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <!-- 
@@ -44,6 +111,20 @@ DIFFERENT SECTION IN THE PROJECT
   ####################
    -->
 
-    <footer></footer>
+   <footer>
+    <div class="footer-container">
+<div class="footer-image">
+  <img src="../image/mini-music.png" alt="logo-footer">
+</div>
+<div class="footer-right">
+  <p> Music Fest World Tour and Concert 2021</p>
+  <br>
+  <p class="arabic">انضم إلينا في القمة العالمية للـ دي.دي.تي ونأمل أن نراك هناك</p>
+</div>
+</div>
+</footer>
+
+
+<script src="../js/main.js"></script>
   </body>
 </html>
