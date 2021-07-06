@@ -97,12 +97,12 @@ header .header-background {
   color: #efefef;
 }
 
-.toggle-list .toggle-close {
+/* .toggle-list .toggle-close {
   display: block;
   position: absolute;
   top: 20px;
   right: 20px;
-}
+} */
 
 .head-text {
   padding-left: 10px;
