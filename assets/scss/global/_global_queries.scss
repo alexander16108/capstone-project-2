@@ -55,7 +55,7 @@
       display: flex;
       font-size: 20px;
       font-family: "Cocogoose", sans-serif;
-      font-weight: weight(large);
+      // font-weight: weight(large);
       margin-top: 23px;
 
       li {
@@ -95,9 +95,9 @@
       color: #272a31;
     }
 
-    .Venue p {
-      font-size: size(medium);
-    }
+    // .Venue p {
+    //   // font-size: size(medium);
+    // }
   }
 
   .partner {
@@ -117,6 +117,7 @@
     padding: 0% 2em;
     display: grid;
     grid-template-columns: 30% 70%;
+
     .footer-image {
       text-align: center;
 
@@ -127,7 +128,7 @@
 
     .footer-right p {
       text-align: center;
-      font-size: size(medium);
+      // font-size: map-get($size , $big );
     }
   }
 }
