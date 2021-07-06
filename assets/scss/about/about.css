@@ -43,7 +43,7 @@ header .header-background {
   height: 100%;
 }
 
-nav {
+.mobile-version {
   padding: 10px;
 }
 
@@ -383,6 +383,129 @@ nav {
   font-size: 15px;
   line-height: 20px;
   font-family: "Lato", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-version {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .mobile-version {
+    display: none;
+  }
+  .icon {
+    background-color: #272a31;
+    color: #d3d3d3;
+    margin: 0%;
+    padding: 0%;
+    height: 5vh;
+    width: 100%;
+  }
+  .icon .list {
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0%;
+  }
+  .icon .list li {
+    padding: 7px 1.4em 0 1.4em;
+    font-size: 17px;
+    font-family: "Cocogoose", sans-serif;
+  }
+  .navigation {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 70% 10%;
+        grid-template-columns: 20% 70% 10%;
+    background-color: #fff;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    height: 9vh;
+  }
+  .navigation .main-logo img {
+    width: 70px;
+    padding: 0%;
+    margin: 0%;
+  }
+  .navigation .nav-list {
+    float: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    font-family: "Cocogoose", sans-serif;
+    font-weight: 700;
+    margin-top: 23px;
+  }
+  .navigation .nav-list li {
+    padding: 0% 1.6em;
+  }
+  .navigation .summit-button {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 10px;
+    margin: auto 0%;
+  }
+  .navigation .summit-button button {
+    background-color: #ec5242;
+    color: white;
+    border: none;
+    padding: 1em;
+  }
+  .head-text {
+    text-align: center;
+    padding: 3em 0;
+  }
+  .head-text .header h1,
+  .head-text .header h2 {
+    padding: 1em;
+  }
+  .head-text .text {
+    font-size: 20px;
+    width: 50%;
+    margin: 0% auto;
+    background-color: white;
+    color: #272a31;
+  }
+  .head-text .Venue p {
+    font-size: 21px;
+  }
+  .partner {
+    padding: 1em;
+  }
+  .partner .partner-header {
+    padding: 9px;
+  }
+  .partner .partner-list {
+    font-size: 27px;
+    font-family: "Cocogoose", sans-serif;
+  }
+  .footer-container {
+    padding: 0% 2em;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 70%;
+        grid-template-columns: 30% 70%;
+  }
+  .footer-container .footer-image {
+    text-align: center;
+  }
+  .footer-container .footer-image img {
+    width: 130px;
+  }
+  .footer-container .footer-right p {
+    text-align: center;
+    font-size: 21px;
+  }
 }
 
 .Venue {

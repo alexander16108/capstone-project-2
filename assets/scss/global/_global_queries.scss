@@ -1,0 +1,133 @@
+@media screen and (max-width: 768px) {
+  .desktop-version {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  // ####################################
+  // HEADER SECTION FOR DESTOP VERSION
+  // ####################################
+
+  .mobile-version {
+    display: none;
+  }
+
+  .icon {
+    background-color: #272a31;
+    color: #d3d3d3;
+    margin: 0%;
+    padding: 0%;
+    height: 5vh;
+    width: 100%;
+
+    .list {
+      float: right;
+      display: flex;
+      flex-direction: row;
+      padding: 0%;
+
+      li {
+        padding: 7px 1.4em 0 1.4em;
+        font-size: 17px;
+        font-family: "Cocogoose", sans-serif;
+      }
+    }
+  }
+
+  .navigation {
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    background-color: #fff;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    height: 9vh;
+
+    .main-logo img {
+      width: 70px;
+      padding: 0%;
+      margin: 0%;
+    }
+
+    .nav-list {
+      float: right;
+      display: flex;
+      font-size: 20px;
+      font-family: "Cocogoose", sans-serif;
+      font-weight: weight(large);
+      margin-top: 23px;
+
+      li {
+        padding: 0% 1.6em;
+      }
+    }
+
+    .summit-button {
+    align-items: center;
+    padding: 0 10px;
+    margin: auto 0%;
+
+       button{
+        background-color: #ec5242;
+        color: white;
+        border: none;
+        padding: 1em;
+      //  margin: 1em;
+      }
+    }
+  }
+
+  .head-text {
+    text-align: center;
+    padding: 3em 0;
+
+    .header h1,
+    .header h2 {
+      padding: 1em;
+    }
+
+    .text {
+      font-size: 20px;
+      width: 50%;
+      margin: 0% auto;
+      background-color: white;
+      color: #272a31;
+    }
+
+    .Venue p {
+      font-size: size(medium);
+    }
+  }
+
+  .partner {
+    padding: 1em;
+
+    .partner-header {
+      padding: 9px;
+    }
+
+    .partner-list {
+      font-size: 27px;
+      font-family: "Cocogoose", sans-serif;
+    }
+  }
+
+  .footer-container {
+    padding: 0% 2em;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    .footer-image {
+      text-align: center;
+
+      img {
+        width: 130px;
+      }
+    }
+
+    .footer-right p{
+      text-align: center;
+      font-size: size(medium);
+    }
+  }
+}
