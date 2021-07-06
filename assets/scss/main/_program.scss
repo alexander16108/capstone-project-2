@@ -3,6 +3,7 @@
 
 .main-program {
   background-color: #272a31;
+
   @include background-relative;
 
   background-image: url($imagePath);
@@ -11,18 +12,15 @@
 
 .main-program-background {
   @include background-content;
-
 }
 
 .program-header {
   h3 {
     @include h3-header;
-
   }
 
   .slim {
     @include line;
-
   }
 }
 
