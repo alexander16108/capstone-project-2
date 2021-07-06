@@ -1,5 +1,6 @@
 header {
   @include background-relative;
+
   background-image: url("https://images.unsplash.com/photo-1549605751-158aa5912530?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGNvbmNlcnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
 
   .header-background {
@@ -39,6 +40,7 @@ header {
 
     a {
       @include link;
+
       text-align: center;
       font-size: 37px;
       font-weight: 500;
@@ -68,7 +70,8 @@ header {
 
   h1 {
     color: $header-color;
-    font-size: size(medium);
+    // font-size: size(medium);
+
     font-family: "Cocogoose", sans-serif;
   }
 
@@ -80,6 +83,7 @@ header {
 .text {
   padding: 5px;
   @include text-mobile;
+
   border: 1px solid white;
   width: 90%;
   color: #d3d3d3;
@@ -90,8 +94,9 @@ header {
   color: #d3d3d3;
 
   .duration {
-    font-size: size(medium);
-    font-weight: weight(medium);
+    // font-size: size(medium);
+    // font-weight: weight(medium);
+
     font-family: "Cocogoose", sans-serif;
   }
 
