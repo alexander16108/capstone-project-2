@@ -1,5 +1,6 @@
 .footer-container {
   @include flexcenter(row);
+
   background-color: white;
 
   .footer-image img {
@@ -7,7 +8,8 @@
     padding: 0 10px;
   }
 
-  .footer-right p{
-@include text-mobile
+  .footer-right p {
+    @include text-mobile;
+
   }
 }
