@@ -82,6 +82,7 @@ header {
 
 .text {
   padding: 5px;
+
   @include text-mobile;
 
   border: 1px solid white;
@@ -102,6 +103,8 @@ header {
 
   .location {
     padding: 10px 0;
+
     @include text-mobile;
+
   }
 }

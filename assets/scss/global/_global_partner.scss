@@ -9,19 +9,24 @@
   h3 {
     @include h3-header;
   }
+
   .slim {
+
     @include line;
   }
 }
 
 .partner-content {
   text-align: center;
-  
+
   .partner-list {
     @include flexcenter(row);
+
     flex-wrap: wrap;
+
     @include h3-header;
-    font-size: size(medium);
+
+    // font-size: size(medium);
 
     li {
       padding: 10px;
