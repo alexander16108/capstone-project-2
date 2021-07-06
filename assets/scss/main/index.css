@@ -54,7 +54,6 @@ header .header-background {
 
 .toggle-list.show {
   display: -webkit-box;
-  /* display: -ms-flexbox; */
   display: flex;
 }
 
