@@ -15,7 +15,8 @@
   }
 
   .slim {
-    @include line;}
+    @include line;
+  }
 }
 
 .face-shot {
@@ -28,16 +29,17 @@
 
   h3 {
     @include header-mobile;
+
     font-size: 15px;
   }
 
   h2 {
     font-family: "Cocogoose", sans-serif;
-    font-size: size(small);
   }
 
   p {
     @include text-mobile;
+
     text-align: center;
   }
 }
