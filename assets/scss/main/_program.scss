@@ -6,7 +6,7 @@
 
   @include background-relative;
 
-  background: url($imagePath);
+  background-image: url($imagePath);
   padding-bottom: 1.4em;
 }
 
