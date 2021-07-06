@@ -1,4 +1,5 @@
 /* font for larger text */
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 
 @font-face {
@@ -546,7 +547,6 @@ header .header-background {
   }
 }
 
-.Venue {
+/* .Venue {
   text-align: center;
-}
-/*# sourceMappingURL=about.css.map */
+} */
