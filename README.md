@@ -2,17 +2,24 @@
 
 # capstone-project
 
-![image](https://user-images.githubusercontent.com/60612329/124616483-0402e700-de6e-11eb-8b03-dd03c79f4b69.png)
+
 
 ## Built With
 - JavaScript
 - HTML
 - CSS
 
+## FrameWork 
+- Sass 
+
+## Environment 
+
+- github page 
+
 
 ## Demo of the project
-- [live demo of this project](https://alexander16108.github.io/capstone-project-2/)
 
+- [Live Demo of this project](https://alexander16108.github.io/capstone-project-2/)
 
 - [live video introduction of this project](https://www.loom.com/share/04c26ee28dcd49cd9c80046849fe72c9)
 
