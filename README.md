@@ -11,7 +11,7 @@
 
 
 ## Demo of the project
-- [live demo of this project](https://alexander16108.github.io/capstone-project-2)
+- [live demo of this project](https://alexander16108.github.io/capstone-project-2/)
 
 
 - [live video introduction of this project](https://www.loom.com/share/04c26ee28dcd49cd9c80046849fe72c9)
