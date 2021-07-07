@@ -9,10 +9,17 @@
 - HTML
 - CSS
 
+## FrameWork 
+- Sass 
+
+## Environment 
+
+- github page 
+
 
 ## Demo of the project
-- [live demo of this project](https://alexander16108.github.io/capstone-project-2/)
 
+- [Live Demo of this project]()
 
 - [live video introduction of this project](https://www.loom.com/share/04c26ee28dcd49cd9c80046849fe72c9)
 
