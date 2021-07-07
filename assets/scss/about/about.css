@@ -203,6 +203,10 @@ header .header-background {
   color: #a09b9b;
 }
 
+.contain {
+  margin-bottom: 4em;
+}
+
 .second-activity-concert,
 .first-activity-concert {
   padding-top: 40px;
