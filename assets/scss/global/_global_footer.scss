@@ -1,0 +1,14 @@
+.footer-container {
+  @include flexcenter(row);
+
+  background-color: white;
+
+  .footer-image img {
+    width: 110px;
+    padding: 0 10px;
+  }
+
+  .footer-right p {
+    @include text-mobile;
+  }
+}

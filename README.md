@@ -2,17 +2,27 @@
 
 # capstone-project
 
-<!-- ![image](https://user-images.githubusercontent.com/60612329/124297090-98a9d400-db52-11eb-90bb-97d511ec632f.png) -->
+![image](https://user-images.githubusercontent.com/60612329/124724765-30694280-df04-11eb-8ba5-8132b3a3d416.png)
+
 
 ## Built With
 - JavaScript
 - HTML
 - CSS
 
+## FrameWork 
+- Sass 
+
+## Environment 
+
+- github page 
+
 
 ## Demo of the project
-<!-- - [live demo of this project](https://alexander16108.github.io/capstone-project/)
-- [live video introduction of this project](https://www.loom.com/share/0694a1bcb76a461a933b185e62fefd20) -->
+
+- [Live Demo of this project](https://alexander16108.github.io/capstone-project-2/)
+
+- [live video introduction of this project](https://www.loom.com/share/04c26ee28dcd49cd9c80046849fe72c9)
 
 
 ## Getting Started

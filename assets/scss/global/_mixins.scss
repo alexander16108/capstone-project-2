@@ -1,0 +1,74 @@
+@import "./variables";
+
+@mixin flexcenter($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+@mixin flexEven {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin text-mobile {
+  line-height: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+@mixin header-mobile {
+  line-height: 30px;
+  font-family: "Cocogoose", sans-serif;
+  color: $header-color;
+}
+
+@mixin flexend {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+@mixin gridAlign {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 0 auto;
+}
+
+@mixin link {
+  text-decoration: none;
+  color: $text-color;
+}
+
+@mixin line {
+  width: 7%;
+  color: #ec5242;
+  margin: 0% auto;
+  border: 1px solid;
+}
+
+@mixin h3-header {
+  color: white;
+  text-align: center;
+  font-family: "Cocogoose", sans-serif;
+}
+
+@mixin background-relative {
+  top: 0%;
+  left: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+@mixin background-content {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}

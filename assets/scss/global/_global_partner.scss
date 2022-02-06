@@ -1,0 +1,35 @@
+.partner {
+  background-color: #272a31;
+  padding: 20px 0;
+}
+
+.partner-header {
+  text-align: center;
+
+  h3 {
+    @include h3-header;
+  }
+
+  .slim {
+    @include line;
+  }
+}
+
+.partner-content {
+  text-align: center;
+
+  .partner-list {
+    @include flexcenter(row);
+
+    flex-wrap: wrap;
+
+    @include h3-header;
+
+    // font-size: size(medium);
+
+    li {
+      padding: 10px;
+      text-transform: uppercase;
+    }
+  }
+}

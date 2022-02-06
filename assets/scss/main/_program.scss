@@ -1,0 +1,65 @@
+@import "../global/variables";
+@import "../global/image";
+
+.main-program {
+  background-color: #272a31;
+
+  @include background-relative;
+
+  background-image: url($imagePath);
+  padding-bottom: 1.4em;
+}
+
+.main-program-background {
+  @include background-content;
+}
+
+.program-header {
+  h3 {
+    @include h3-header;
+  }
+
+  .slim {
+    @include line;
+  }
+}
+
+.content {
+  @include flexEven;
+
+  background-color: #272a31;
+  margin: 12px;
+  color: #d3d3d3;
+  height: 24vh;
+
+  p {
+    @include text-mobile;
+
+    text-align: center;
+  }
+
+  h3 {
+    color: #ec5242;
+    // font-size: size(medium);
+    // font-weight: weight(medium);
+    font-family: "Lato", sans-serif;
+  }
+
+  span {
+    padding: 12px;
+  }
+}
+
+.button {
+  text-align: center;
+  margin-top: 3em;
+
+  button {
+    background: #ff4f38;
+    color: #efefef;
+    border: none;
+    height: 12vh;
+    padding: 20px;
+    font-size: medium;
+  }
+}
